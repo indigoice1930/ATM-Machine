@@ -7,6 +7,9 @@ public class ATM_Machine_copy {
         System.out.println("Main menu\n1: check balance\n2: withdraw\n3: deposit\n4: exit ");
     }
     public static void main(String[] args) throws Exception {
+
+        //add test comment
+
         Account[] accounts = new Account[10];
         for(int i = 0; i < 10; i++){
             accounts[i] = new Account(i,100);
